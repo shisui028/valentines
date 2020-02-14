@@ -1,0 +1,86 @@
+body {
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.upperBody {
+    margin-top: 10%;
+    margin-left: 8%;
+    padding: 0;
+    height: 40%;
+    width: 80%;
+    border: 0.5px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: flex;
+    padding: 2em;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.firstImage img {
+    height: 10em;
+    width: 10em;
+    margin-top: 4em;
+}
+
+.text {
+    margin-left: 1em;
+    height: 14em;
+    width: 60em;
+    border: 0.5px solid white;
+    margin-right: 1em;
+    padding: 2em;
+}
+
+.secondImage img {
+    margin-top: 3em;
+    height: 13em;
+    width: 10em;
+}
+
+.upperLeftGif img {
+    float: left;
+    height: 8em;
+    position: fixed;
+}
+
+.lowerGif img {
+    float: left;
+    height: 8em;
+    margin-top: 38em;
+    position: fixed;
+    margin-left: 45%;
+}
+
+.upperRightGif img{
+    float: right;
+    height: 8em;
+}
+
+span {
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
+
+span :hover {
+    color: red;
+}
+
+.redText {
+    color: red;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+h2 {
+    margin-top: -0.7em;
+}
+
+.rightText {
+    text-align: right;
+}
